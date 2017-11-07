@@ -89,3 +89,212 @@ header {
     margin-top: 17px;
     margin-bottom: 22px;
 }
+.banner {
+    position:relative;
+    width: 100%;
+    height: 2000px; 
+    background: #f3f3f3;
+}
+.in-banner {
+    background: url('banner_header.png');
+    display: flex;    
+    position: absolute;;
+    width: 100%;
+    height: 400px;
+}
+.banner-btn-back {
+    position: absolute;
+    background: #e8645e;
+    width: 50px;
+    height: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid #e5544b; 
+}
+.banner-btn-next {
+    position: absolute;
+    background: #e8645e;
+    width: 50px;
+    height: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    right: 0px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 5px solid #e5544b; 
+}
+.baner-center {
+    width: 400px;
+    height: 160px;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.banner-title {
+    background: #e2534b;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    color: white;
+    left: 45px;
+    font-size: 40px;
+    font-family: Verdana;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.banner-detail {
+    background: #3f4646;
+    text-align: center;
+    position: absolute;
+    top:80px;
+    padding-top: 10px;
+    height: 50px;
+    color: white;
+    border-radius:3px; 
+}
+
+.three-border {
+    width: 15%;
+    height: 20px;
+    position: absolute;
+    top:410px;
+    left: 50%;
+    transform:translateX(-50%); 
+}
+
+.border-left {
+    border: 2px solid #b0b8b9;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 0px;
+    transform: translateY(-50%);
+}
+.border-right {
+    border: 2px solid #b0b8b9;
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+.border-center {
+    border: 2px solid #e2534b;
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.top-service {
+    position: absolute;
+    top: 450px;
+    height:100px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ececec; 
+    border-radius: 5px;               
+}
+.top-service-text {
+    position:absolute;
+    width: 70%;
+    height: 80px;
+    left: 20px;
+}
+.top-service-btnview {
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    border-radius: 2px;
+    border: none;
+    background: #e2244b;
+    color: white;
+    font-family: verdaba;
+    font-size: 20;
+    border-bottom: 5px solid #e3344b; 
+}
+.top-service-title {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    font-family: verdana;
+    font-size: 23;
+    color:#7f8c8c;
+    top:0px;
+    bottom: 20px;
+    text-align: left;
+}
+.top-service-detail {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 50px;
+    background: rgba(0, 0, 0, 0);
+    font-family: verdana;
+    font-size: 10;
+    color: #777777;
+}
+.service {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top:600px;
+}
+.service-box {
+    width: 24%;
+    height: 300px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+.service-box:hover {
+    background: #ffffff;
+}
+.icon {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.service-title {
+    margin-left: 85px;
+    margin-top:30px;
+    color: #7f8c8c;
+    font-family: verdana;
+    font-size: 15; 
+}
+.service-detail {
+    color: #777777;
+    font-family: verdana; 
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.service-box-btn {
+    width: 180px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    background: #76c7c0;
+    margin-left:40px; 
+    font-family: verdana;
+    font-size: 25;
+    color: white;
+    border-bottom: 5px solid #40b1c0;
+}
+.service-box-btn:hover {
+    background: #e2244b;
+    border-bottom: 5px solid #e3344b; 
+}
